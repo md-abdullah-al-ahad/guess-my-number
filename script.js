@@ -18,6 +18,7 @@ againButton.addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
+  document.querySelector('.guess').value = '';
 });
 
 checkButton.addEventListener('click', function () {
